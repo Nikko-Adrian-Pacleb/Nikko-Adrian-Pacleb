@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap");
+
+:root {
+  --color-body: #0d0d0d;
+  --color-heading: #73121a;
+  --color-font: #bfbfbf;
+  --sidebar-width: 240px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+body {
+  background-color: var(--color-body);
+  color: var(--color-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-font);
+  transition: all 0.4s ease;
+}
+
+a:hover {
+  color: var(--color-heading);
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: var(--sidebar-width);
+    background: linear-gradient(rgba(115, 18, 26, 0.9), rgba(64, 4, 9, 0.9)),
+      url(../images/navbg.jpg);
+  }
+}
