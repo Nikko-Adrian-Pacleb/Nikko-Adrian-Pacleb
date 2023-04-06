@@ -38,11 +38,32 @@ img {
 }
 
 /* Navbar */
+.navbar .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-font);
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-body);
+}
+
+.navbar {
+  background: linear-gradient(rgba(115, 18, 26, 0.9), rgba(64, 4, 9, 0.9)),
+    url(../images/navbg.jpg);
+}
+
 @media (min-width: 992px) {
   .navbar {
     min-height: 100vh;
     width: var(--sidebar-width);
     background: linear-gradient(rgba(115, 18, 26, 0.9), rgba(64, 4, 9, 0.9)),
       url(../images/navbg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar-brand img {
+    border: 3px solid var(--color-font);
   }
 }
