@@ -54,7 +54,7 @@ img {
   justify-content: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  border-bottom: 2px solid rgba(191, 191, 191, 0.1);
+  border-bottom: 2px solid rgba(191, 191, 191, 0.5);
 }
 
 /* Navbar */
@@ -89,9 +89,9 @@ img {
     background-position: center;
   }
 
-  .navbar-brand img {
-    /* border: 3px solid var(--color-base2); */
-  }
+  /* .navbar-brand img {
+    border: 3px solid var(--color-base2);
+  } */
 
   /* Content */
   #content-wrapper {
