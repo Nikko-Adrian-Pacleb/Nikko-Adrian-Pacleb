@@ -136,3 +136,14 @@ img {
 .custom-link:hover::after {
   width: 100%;
 }
+
+/* Contacts */
+.contact-icon {
+  color: white;
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.contact-icon:hover {
+  color: var(--color-base2);
+}
