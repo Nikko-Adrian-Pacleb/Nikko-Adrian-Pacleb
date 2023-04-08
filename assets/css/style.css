@@ -58,6 +58,16 @@ img {
 }
 
 /* Navbar */
+.nav-icon {
+  color: white;
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.nav-icon:hover {
+  color: var(--color-base2);
+}
+
 .navbar .nav-link {
   font-weight: 700;
   text-transform: uppercase;
@@ -139,11 +149,11 @@ img {
 
 /* Contacts */
 .contact-icon {
-  color: white;
+  color: var(--color-heading);
   font-size: 48px;
   font-weight: 200;
 }
 
 .contact-icon:hover {
-  color: var(--color-base2);
+  color: var(--color-text);
 }
